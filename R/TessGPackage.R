@@ -26,5 +26,5 @@ time_until_deadline <- function(deadline){
 time_until <- as.numeric(deadline - Sys.time(), units = "hours")
 return(paste("You have", round(time_until, 2), "hours until your deadline!"))
 }
-time_until_deadline("2026-10-06 23:59:00")
+
 
