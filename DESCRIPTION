@@ -1,10 +1,10 @@
 Package: TessGPackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Pretty Histogram and Deadline Counter Functions
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
+      "Tess", "Gilmartin",
       email = "jane@example.com",
       role = c("aut", "cre")
     )

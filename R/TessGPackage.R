@@ -9,8 +9,8 @@
 #   Test Package:              'Cmd + Shift + T'
 
 prettyhist <- function(x, xlab, title) {
-  ggplot(data.frame(x = x), aes(x)) +
-    geom_histogram( fill = "yellow",
+  ggplot2::ggplot(data.frame(x = x), aes(x)) +
+    ggplot2::geom_histogram( fill = "yellow",
                     color = "orange") +
     theme_minimal() +
     labs(
