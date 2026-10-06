@@ -19,7 +19,6 @@ prettyhist <- function(x, xlab, title) {
       y = "Count"
     )
 }
-prettyhist(mpg$hwy, "Highway MPG", "Highway MPG Histogram")
 
 
 time_until_deadline <- function(deadline){
